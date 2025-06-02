@@ -38,12 +38,11 @@ def search_file_by_name(disk: str, file_type: str, name_hint: str, folders: list
                         matches.append((full_path, score))
 
     if not matches:
-        return "No files found matching the criteria."
+        return "No matching file found."
     else:
         to_show = []
         matches.sort(key=lambda x: x[1], reverse=True)
         top_matches = matches[:5]
-        
         for path, _ in top_matches:
             to_show.append(path)
         return to_show
