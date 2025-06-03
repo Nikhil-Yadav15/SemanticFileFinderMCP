@@ -1,6 +1,6 @@
 # 🚀 MCP Semantic File Finder
 
-This project showcases how to integrate the **Modular Command Platform (MCP)** with **Claude Desktop**, providing two smart tools:
+This project showcases how to integrate the **Model Contex Protocol (MCP)** with **Claude Desktop**, with two smart tools:
 
 1. 🔍 `search_file_by_name` – Uses semantic similarity to locate files on a given disk.
 2. 💽 `list_drives` – Lists all available drives on your system.
