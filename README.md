@@ -1,4 +1,4 @@
-# 🚀 MCP Claude Integration
+# 🚀 MCP Semantic File Finder
 
 This project showcases how to integrate the **Modular Command Platform (MCP)** with **Claude Desktop**, providing two smart tools:
 
