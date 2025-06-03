@@ -17,8 +17,10 @@ This project showcases how to integrate the **Model Contex Protocol (MCP)** with
 
 ## ⚙️ Setup Instructions
 
-* ## Option 1: Run Locally
   ### 📋 Prerequisites
+  * ### Claude Desktop
+
+* ## Option 1: Run Locally
   
   * Install dependencies using [`uv`](https://github.com/astral-sh/uv):
   
