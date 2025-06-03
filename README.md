@@ -17,32 +17,38 @@ This project showcases how to integrate the **Modular Command Platform (MCP)** w
 
 ## ⚙️ Setup Instructions
 
-### 📋 Prerequisites
-
-* Install dependencies using [`uv`](https://github.com/astral-sh/uv):
-
-```bash
-uv init
-uv add sentence-transformers
-```
-
-### 🗃️ Project Structure
-
-```bash
-project_root/
-├── main.py  # Contains the MCP tools
-```
-
-### ▶️ Running the Integration
-
-To install the MCP server into Claude Desktop:
-
-```bash
-uv run mcp install main.py
-```
-
-Make sure `main.py` is present and MCP initializes the tools successfully.
-
+* ## Option 1: Run Locally
+  ### 📋 Prerequisites
+  
+  * Install dependencies using [`uv`](https://github.com/astral-sh/uv):
+  
+  ```bash
+  uv init
+  uv add sentence-transformers
+  ```
+  
+  ### 🗃️ Project Structure
+  
+  ```bash
+  project_root/
+  ├── main.py  # Contains the MCP tools
+  ```
+  
+  ### ▶️ Running the Integration
+  
+  To install the MCP server into Claude Desktop:
+  
+  ```bash
+  uv run mcp install main.py
+  ```
+  
+  Make sure `main.py` is present and MCP initializes the tools successfully.
+  
+* ## Option 2: Using Docker 🐳
+    ```bash
+  docker pull tensorforge/filefindermcp
+  docker run -it tensorforge/filefindermcp
+  ```
 ---
 
 ## 🧰 Tool Descriptions
