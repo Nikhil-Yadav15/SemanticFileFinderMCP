@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/nikhil-yadav15-semanticfilefindermcp-badge.png)](https://mseep.ai/app/nikhil-yadav15-semanticfilefindermcp)
+
 # 🚀 MCP Semantic File Finder
 
 This project showcases how to integrate the **Model Contex Protocol (MCP)** with **Claude Desktop**, with two smart tools:
